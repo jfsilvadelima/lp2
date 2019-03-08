@@ -4,7 +4,9 @@ public class Funcionario {
 	
 	private double salario;
     private String nome;
- 
+    private String cpf;
+         // métodos devem vir aqui
+     
     public String getNome() {
         return nome;
     }
@@ -20,5 +22,15 @@ public class Funcionario {
     public double getSalario() {
         return salario;
     }
+
+	public String getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
 }
+
+
 
