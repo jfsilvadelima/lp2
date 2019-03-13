@@ -5,7 +5,7 @@ public class Funcionario {
 	private double salario;
     private String nome;
     private String cpf;
-         // mÃ©todos devem vir aqui
+         // métodos devem vir aqui
      
     public String getNome() {
         return nome;
@@ -30,7 +30,10 @@ public class Funcionario {
 	public void setCpf(String cpf) {
 		this.cpf = cpf;
 	}
+
+	public double getBonificacao() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 }
-
-
 
