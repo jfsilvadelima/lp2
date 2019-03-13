@@ -1,0 +1,17 @@
+public void mostrarCalculo(String operacao, double x, double y) {
+    System.out.print("O resultado é: ");
+
+    switch (operacao) {
+        case SOMA: 
+            System.out.print(x + y);
+            break;
+        case SUBTRACAO: 
+            System.out.print(x - y);
+            break;
+
+        // Outras operações...
+        default:
+            throw new UnsupportedOperationException();
+            break;
+    }
+}
